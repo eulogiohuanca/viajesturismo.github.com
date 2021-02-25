@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machu Picchu En Bus</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/Contacto.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+</head>
+<body>
+	<!--navegación-->
+    <header class="full-width NavBarP">
+		<div class="full-width NavBarP-Logo">
+			<img src="assets/img/logo2.jpg" alt="">
+		</div>
+		<nav class="full-width NavBarP-Nav">
+			<ul class="full-width list-unstyled">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="MachuPicchuEnBus.html">Machupicchu en bus</a></li>
+				<li><a href="GaleriaFotos.html">Galeria de Foto</a></li>
+				<li><a href="Contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<i class="fa fa-bars visible-xs btn-menuMobile ShowMenuMobile" aria-hidden="true"></i>
+	</header>
+
+		<!--slider de imagen-->
+		<h1 id="page-title">Machu Picchu Tours</h1>
+		<div class="flexslider">
+			<ul class="slides">
+	
+				<li>
+					<img src="images/boleto-turistico-cusco.jpg" alt="">
+					<section class="caption">
+						
+					</section>
+				</li>
+	
+				<li>
+					<img src="images/City Tour Cusco.jpg" alt="">
+					<section class="caption">
+						
+					</section>
+				</li>
+	
+				<li>
+					<img src="images/cusco2.jpg" alt="">
+					<section class="caption">
+						
+					</section>
+				</li>
+	
+			</ul>
+		</div>
+	
+	<!--contacto-->
+	<main class="contenedor seccion contenido-centrado">
+		<h2 class="fw-300 center-texto">Llene el formulario de contacto</h2>
+
+		<form class="contacto" action="">
+			<fieldset>
+				<legend>Información Personal</legend>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+
+			<label for="email">Correo Electrónico:</label>
+			<input type="email" id="email" placeholder="Ingrese tu correo electrónico" required>
+
+			<label for="telefono">Teléfono:</label>
+			<input type="tel" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
+
+			<label for="mensaje">Mensaje:</label>
+			<textarea name="mensaje" id="mensaje" required></textarea>
+		  </fieldset>
+
+		  <input type="submit" id="enviar" value="Enviar" class="boton boton-verde">
+		  </form>
+		  <br>
+		 
+
+		  <!--scripts de slider-->
+		  <script src="js/jquery-3.1.1.min.js"></script>
+		  <script src="js/jquery.flexslider.js"></script>
+		  <script src="js/slider.js"></script>
+</body>
+</html>

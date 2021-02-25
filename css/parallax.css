@@ -1,0 +1,25 @@
+.text-center {
+  align-items: center;
+  text-align: center;
+  justify-content: right;
+}
+
+#teAyudamos {
+  padding: 7rem 0;
+  background: url(../images/3.jpg) center center / cover no-repeat fixed;
+  background-color: transparent;
+  text-decoration: transparent;
+  color: #fff;
+}
+
+
+/***************
+/***** el boton *****
+/************************/
+
+.btn-primary:hover{
+    color: #000;
+    background-color: #ffff00;
+    border-radius: 2px;
+    border-color: #ffff00;
+}

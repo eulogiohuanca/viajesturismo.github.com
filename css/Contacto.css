@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/* globales */
+
+img {
+  max-width: 100%;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+/* utilidades */
+.seccion {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.center-texto {
+  text-align: center;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.contenido-centrado {
+  max-width: 800px;
+}
+
+/* contacto home */
+.imagen-contacto {
+  background-image: url(../img/encuentra.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.contenido-contacto {
+  flex: 1;
+  color: #ffffff;
+}
+
+.contenido-contacto p {
+  font-size: 1.8rem;
+}
+
+/**********
+  /******* contacto */
+/****** */
+
+.contacto {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+contacto p {
+  font-size: 1.4rem;
+  color: #000000;
+  margin: 2rem 0 0 0;
+}
+
+legend {
+  font-size: 2.4rem;
+  color: #333333;
+  
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.forma-contacto {
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* botones */
+.boton {
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1rem 3rem;
+  margin-top: 0rem;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: #00ffffbd;
+  color: #070707;
+  border-radius: 2px;
+}
+
+.boton-amarillo {
+  background-color: #e08709;
+}
+
+.boton-verde {
+  background-color: #71b100;
+}
